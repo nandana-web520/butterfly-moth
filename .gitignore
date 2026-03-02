@@ -11,10 +11,7 @@ __pycache__/
 # Jupyter Notebooks
 .ipynb_checkpoints/
 
-# Models and Large Files
-*.keras
-*.h5
-*.weights.h5
+
 
 # OS Files
 .DS_Store
