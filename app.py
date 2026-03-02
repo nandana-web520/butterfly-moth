@@ -81,7 +81,7 @@ st.markdown("""
 @st.cache_resource(show_spinner="Loading model... please wait ⏳")
 def load_resources():
     from tensorflow.keras.models import load_model
-    model_path = os.path.join('saved_models', 'saved_models/resnet50v2_butterfly_best.h5')
+    model_path = os.path.join('saved_models', 'resnet50v2_butterfly_best.h5')
     json_path  = os.path.join('saved_models', 'class_indices.json')
 
     if not os.path.exists(model_path):
